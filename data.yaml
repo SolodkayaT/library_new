@@ -1,0 +1,175 @@
+--- !ruby/object:Library
+books:
+- !ruby/object:Book
+  author: Alexandre Dumas
+  title: Two Dianas
+- !ruby/object:Book
+  author: Jack London
+  title: Marthin Iden
+- !ruby/object:Book
+  author: John Green
+  title: The Fault in Our Stars
+- !ruby/object:Book
+  author: Gillian Flynn
+  title: Gone Girl
+- !ruby/object:Book
+  author: " Lauren Oliver"
+  title: Pandemonium
+- !ruby/object:Book
+  author: Darynda Jones
+  title: Third Grave Dead Ahead
+- !ruby/object:Book
+  author: William Landay
+  title: Defending Jacob
+- !ruby/object:Book
+  author: Cynthia Hand
+  title: Hallowed
+- !ruby/object:Book
+  author: Julie Kagawa
+  title: The Immortal Rules
+- !ruby/object:Book
+  author: Jeaniene Frost
+  title: Once Burned
+orders:
+- !ruby/object:Order
+  book: Once Burned Jeaniene
+  reader: Antony
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: Third Grave Dead Ahead
+  reader: Antony
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: Marthin Iden
+  reader: Antony
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: Gone Girl
+  reader: Antony
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: Gone Girl
+  reader: Linda
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: Once Burned Jeaniene Frost
+  reader: Linda
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: Hallowed
+  reader: Linda
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: Once Burned Jeaniene Frost
+  reader: Linda
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: Defending Jacob
+  reader: Linda
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: Gone Girl
+  reader: Tom
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: Pandemonium
+  reader: Tom
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: Pandemonium
+  reader: Katty
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: Hallowed
+  reader: Katty
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: Defending Jacob
+  reader: Katty
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: Pandemonium
+  reader: Fill
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: Hallowed
+  reader: Alex
+  date: 2016-10-18 22:39:40.596111000 +04:00
+- !ruby/object:Order
+  book: The Fault in Our Stars
+  reader: Max
+  date: 2016-10-18 22:39:40.596111000 +04:00
+readers:
+- !ruby/object:Reader
+  name: Fill
+  email: fill@mail.com
+  city: City1
+  street: Street1
+  house: House1
+- !ruby/object:Reader
+  name: Antony
+  email: Antony@mail.com
+  city: City2
+  street: Street2
+  house: House2
+- !ruby/object:Reader
+  name: Linda
+  email: linda@mail.com
+  city: City3
+  street: Street3
+  house: House3
+- !ruby/object:Reader
+  name: Tom
+  email: tom@mail.com
+  city: City4
+  street: Street4
+  house: House4
+- !ruby/object:Reader
+  name: Katty
+  email: kattty@mail.com
+  city: City5
+  street: Street5
+  house: House5
+- !ruby/object:Reader
+  name: Alex
+  email: alex@mail.com
+  city: City6
+  street: Street6
+  house: House6
+- !ruby/object:Reader
+  name: Max
+  email: max@mail.com
+  city: City7
+  street: Street7
+  house: House7
+authors:
+- !ruby/object:Author
+  name: Alexandre Dumas
+  biography: It's biography of A.Dyma
+- !ruby/object:Author
+  name: Jack London
+  biography: It's biography of J. London
+- !ruby/object:Author
+  name: John Green
+  biography: It's biography of John Green
+- !ruby/object:Author
+  name: Gillian Flynn
+  biography: It's biography of Gillian Flynn
+- !ruby/object:Author
+  name: Lauren Oliver
+  biography: It's biography of Lauren Oliver
+- !ruby/object:Author
+  name: Darynda Jones
+  biography: It's biography of Darynda Jones
+- !ruby/object:Author
+  name: William Landay
+  biography: It's biography of William Landay
+- !ruby/object:Author
+  name: Cynthia Hand
+  biography: It's biography of Cynthia Hand
+- !ruby/object:Author
+  name: Julie Kagawa
+  biography: It's biography of Julie Kagawa
+- !ruby/object:Author
+  name: Jeaniene Frost
+  biography: It's biography of Jeaniene Frost
